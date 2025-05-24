@@ -1,0 +1,65 @@
+#root {
+
+  text-align: center;
+}
+
+from{
+  transform: rotate(0deg);
+
+}
+to{
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out;
+}
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input{
+  flex-basis: 80%;
+  height: 40px;
+}
+form button{
+  flex-basis: 20%;
+  
+  cursor: pointer;
+}
+.outerDev{
+  width: 1170px;
+  margin: auto;
+
+
+
+}
+.outerDev ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+    margin-top: 50px;
+}
+.outerDev ul li{
+color: white;
+  padding: 10px;
+  background-color:purple;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+.outerDev ul li span{
+  position: absolute;
+  right: 20px;
+  top: 0px;
+ 
+ padding-top: 12px;
+  color: white;
+  cursor: pointer;
+}
+.complettodo{
+  text-decoration: line-through;
+  color: red;
+  background-color: tomato !important;
+}
