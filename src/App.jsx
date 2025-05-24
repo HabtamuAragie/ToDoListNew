@@ -25,7 +25,8 @@ let list = toDoList.map((value, index) => {
 
 return (
   <div className='container'>
-    <h1>ToDO List</h1>
+    <h1>ToDO List </h1>
+    <h2>Enter Fruit List</h2>
     <form onSubmit={saveToDoList}>
       <input type="text" name="toname" /> <button>Save</button>
     </form>
