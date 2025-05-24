@@ -22,7 +22,7 @@ form input{
   height: 40px;
 }
 form button{
-  flex-basis: 20%;
+  flex-basis: 10%;
   
   cursor: pointer;
 }
@@ -62,4 +62,10 @@ color: white;
   text-decoration: line-through;
   color: red;
   background-color: tomato !important;
+}
+button{
+  background-color:green;
+  border-radius: 5px;
+  color: white;
+  border: none;
 }
